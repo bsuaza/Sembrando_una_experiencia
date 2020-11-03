@@ -1,2 +1,0 @@
-apache==0.0.1
-PyMySQL==0.10.1
