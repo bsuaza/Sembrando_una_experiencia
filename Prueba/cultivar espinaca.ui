@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cultivar_espinaca</class>
+ <widget class="QDialog" name="cultivar_espinaca">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>515</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(87, 87, 87);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; color:#28b828;&quot;&gt;Espinacas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>471</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>469</width>
+      <height>379</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;¿Como iniciar?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>461</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>- La espinaca es una planta que crece mejor en climas frescos o fríos. Las semillas son esferas
+irregulares color café claro, entre 2-3mm de diámetro. Antes de sembrar, debemos preparar
+nuestro semillero con una mezcla nutritiva que tenga buen drenaje. Existen distintas maneras 
+de sembrar las espinacas, siembra directa o en semillero.
+
+- La siembra directa, es en la que se realizan pequeños surcos con una separación aproximada 
+de 8-10cm entre ellos y una profundidad aproximada de 1.5cm. Coloca las semillas en los surcos 
+con una distancia de 2-3cm entre semillas. Las plantas crecerán muy cercanas y podremos cose- 
+charlas con tijeras, obteniendo hojas de espinaca “baby” u hojas tiernas, que tienen un sabor 
+más sutil.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;Primera produccion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>451</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>- A partir de unas seis semanas después de la siembra, podemos comenzar a cosechar las 
+hojas externas de nuestras espinacas. Es importante observar el crecimiento de nuestras 
+plantas, al principio sólo podremos cosechar algunas hojas, ya que si cosechamos demasiadas
+tardará en recuperarse y su crecimiento será lento. El mejor momento para la cosecha es du-
+rante la mañana, las hojas tienen una mayor concentración de humedad y se conservan mejor.
+
+- Coloca las hojas en una red o bolsa con orificios y colócalas en el refrigerador. Pueden
+conservarse frescas hasta por 10 días.</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="boton_atras">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>450</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border-image: url(:/izq2/izq.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
