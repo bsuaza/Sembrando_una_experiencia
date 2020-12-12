@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(54, 54, 54);</string>
+  </property>
+  <widget class="QPushButton" name="boton_zana">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(157, 157, 157);
+font: 75 12pt &quot;Terminal&quot;;color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Zanahorias</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>151</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/zanahoria/Zanahoria.png);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>120</y>
+     <width>151</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tomate/4c639f98b68c1e4ef3678089d00739d0-dibujos-animados-de-tomates-by-vexels.png);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>340</y>
+     <width>131</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/pimiento/kisspng-bell-pepper-adobe-illustrator-pepper-png-vector-material-5a99bd91992f60.9515099415200249776275.png);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_4">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>340</y>
+     <width>131</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/espinaca/—Pngtree—bunch of spinach vector illustration_5315407.png);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_tomate">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(157, 157, 157);
+font: 75 12pt &quot;Terminal&quot;;color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Tomates</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_pimiento">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(157, 157, 157);
+font: 75 12pt &quot;Terminal&quot;;color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Pimientos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_espinaca">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(157, 157, 157);
+font: 75 12pt &quot;Terminal&quot;;color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Espinaca</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_atras">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>490</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+border-image: url(:/izq2/izq.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="frutas.qrc"/>
+  <include location="flecha.qrc"/>
+ </resources>
+ <connections/>
+</ui>
