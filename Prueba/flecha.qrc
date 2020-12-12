@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="izq">
-    <file>descarga.png</file>
-  </qresource>
-  <qresource prefix="izq2">
-    <file>izq.png</file>
-  </qresource>
-</RCC>
